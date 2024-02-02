@@ -1,0 +1,18 @@
+h2 {
+	border-radius: 10px;
+	padding: 10px;
+	background-color: grey;
+}
+
+.border-grey {
+	border: solid grey 5px;
+	border-radius: 10px;
+}
+
+.home-content {
+	margin-left: 15px;
+}
+
+.container-fluid {
+	margin-left: -10px !important;
+}

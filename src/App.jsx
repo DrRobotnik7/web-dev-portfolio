@@ -1,19 +1,21 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header'
+import Home from './pages/Home'
 
 function App() {
 
   return (
     <Router>
       <Header />
-      {/* <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="projectgallery" element={<ProjectGallery />} />
-        <Route path="contact" element={<Contact />} />
-      </Routes> */}
+      </Routes>
     </Router>
   )
 }
+
+{/* <Route path="projectgallery" element={<ProjectGallery />} /> */}
+{/* <Route path="contact" element={<Contact />} /> */}
 
 export default App
