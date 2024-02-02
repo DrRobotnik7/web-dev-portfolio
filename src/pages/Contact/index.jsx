@@ -30,9 +30,9 @@ function Contact() {
         <label for="message">Message</label>
         <input className="form-control" name="message" as="textarea" rows={3} placeholder="Type in me!"/>
       </div>
-      <Button variant="dark" type="submit">
+      <button className="btn btn-dark btn-lg" type="submit">
         Submit
-      </Button>
+      </button>
     </form>
 </>)
 }
