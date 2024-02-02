@@ -5,7 +5,7 @@ import DrRobotnik from "../../assets/images/DrRobotnik.png"
 
 function NavigationBar() {
 	return (
-		<nav className="navbar navbar-expand-lg bg-secondary">
+		<nav className="navbar navbar-expand-md bg-dark navbar-dark">
 			<div className="container-fluid">
 				<Link className="navbar-brand" to="/">
 					<img
@@ -28,7 +28,7 @@ function NavigationBar() {
 				>
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
 					<div className="navbar-nav">
 						<NavLink to="/" className="nav-link active">
 							Home

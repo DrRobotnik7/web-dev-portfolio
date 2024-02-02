@@ -1,14 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavigationBar from './components/NavigationBar';
-import Jumbotron from './components/Jumbotron'
+import Header from './components/Header'
 
 function App() {
 
   return (
     <Router>
-      <NavigationBar />
-      <Jumbotron />
+      <Header />
       {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projectgallery" element={<ProjectGallery />} />
