@@ -1,7 +1,5 @@
 import React, { useState } from "react"
 import contactData from "../../data/contact.json"
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import CV from "../../assets/documents/JackJohnsonCV.pdf"
 import "./styles.css"
 
@@ -20,18 +18,18 @@ function Contact() {
       </div>
     <h3>Contact Me</h3>
     <form className="m-3" action="https://getform.io/f/13fdd2c6-8887-4bfd-87c1-025d67d56172" method="POST">
-      <Form.Group className="mb-3" controlId="formBasicName">
-        <Form.Label>Your Name</Form.Label>
-      <Form.Control type="text" name="name" placeholder="Anne Onymous" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" name="email" placeholder="nostalgia@blueyonder.co.uk" />
-      </Form.Group>
-      <Form.Group className="mb-3" controlId="formBasicMessage">
-        <Form.Label>Message</Form.Label>
-        <Form.Control name="message" as="textarea" rows={3} placeholder="Type in me!"/>
-      </Form.Group>
+      <div className="form-group mb-3" controlId="formBasicName">
+        <label for="name">Your Name</label>
+      <input className="form-control" type="text" name="name" placeholder="Anne Onymous" />
+      </div>
+      <div className="form-group mb-3" controlId="formBasicEmail">
+        <label for="email">Email address</label>
+        <input className="form-control" type="email" name="email" placeholder="nostalgia@blueyonder.co.uk" />
+      </div>
+      <div className="form-group mb-3" controlId="formBasicMessage">
+        <label for="message">Message</label>
+        <input className="form-control" name="message" as="textarea" rows={3} placeholder="Type in me!"/>
+      </div>
       <Button variant="dark" type="submit">
         Submit
       </Button>

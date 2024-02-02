@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Home from './pages/Home'
 import Footer from './components/Footer'
 import ProjectGallery from './pages/ProjectGallery'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -13,14 +14,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projectgallery" element={<ProjectGallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </Router>
   )
 }
-
-// 
-{/* <Route path="contact" element={<Contact />} /> */}
-// Try with / and without
 
 export default App
