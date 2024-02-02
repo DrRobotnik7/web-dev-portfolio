@@ -2,7 +2,7 @@
 	{
 		"key": 1,
 		"name": "Yūgen",
-		"image": "./public/images/Yugen.png",
+		"image": "./images/Yugen.png",
 		"description": "A travel inspiration application that helps users decide where in the world to visit next.",
 		"url": "https://tejpatta.github.io/Travel-Inspiration/",
 		"github": "https://github.com/tejpatta/Travel-Inspiration"
@@ -10,7 +10,7 @@
 	{
 		"key": 2,
 		"name": "Weather Dashboard",
-		"image": "./public/images/weather-dashboard-screenshot.png",
+		"image": "./images/weather-dashboard-screenshot.png",
 		"description": "A weather dashboard that shows users the current weather and a 5-day forecast for a specific location.",
 		"url": "https://drrobotnik7.github.io/weather-dashboard/",
 		"github": "https://github.com/DrRobotnik7/weather-dashboard"
@@ -18,7 +18,7 @@
 	{
 		"key": 3,
 		"name": "Password Generator",
-		"image": "./public/images/rpg-screenshot.png",
+		"image": "./images/rpg-screenshot.png",
 		"description": "An application that randomly generates a password, users can choose a length and character types to include.",
 		"url": "https://drrobotnik7.github.io/random-password-generator/",
 		"github": "https://github.com/DrRobotnik7/random-password-generator"
@@ -26,7 +26,7 @@
 	{
 		"key": 4,
 		"name": "Work Day Scheduler",
-		"image": "./public/images/work-day-scheduler-screenshot.png",
+		"image": "./images/work-day-scheduler-screenshot.png",
 		"description": "A work day planner that allows a user to save events for each hour of the day.",
 		"url": "https://drrobotnik7.github.io/work-day-scheduler/",
 		"github": "https://github.com/DrRobotnik7/work-day-scheduler"
@@ -34,7 +34,7 @@
 	{
 		"key": 5,
 		"name": "JavaScript Quiz",
-		"image": "./public/images/quiz-screenshot.png",
+		"image": "./images/quiz-screenshot.png",
 		"description": "A timed multiple choice quiz on JavaScript fundamentals that stores users initials and high scores.",
 		"url": "https://drrobotnik7.github.io/javascript-fundamentals-quiz/",
 		"github": "https://github.com/DrRobotnik7/javascript-fundamentals-quiz"
@@ -42,7 +42,7 @@
 	{
 		"key": 6,
 		"name": "BootStrap Portfolio",
-		"image": "./public/images/bootstrap-portfolio-screenshot.png",
+		"image": "./images/bootstrap-portfolio-screenshot.png",
 		"description": "My portfolio, built using Bootstrap prior to learning JavaScript and React",
 		"url": "https://drrobotnik7.github.io/bootstrap-portfolio/",
 		"github": "https://github.com/DrRobotnik7/bootstrap-portfolio"
@@ -50,7 +50,7 @@
 	{
 		"key": 7,
 		"name": "Team Profile Generator",
-		"image": "./public/images/team-profile-generator-screenshot.png",
+		"image": "./images/team-profile-generator-screenshot.png",
 		"description": "A command-line application that takes in information about employees on a software engineering team, then generates a webpage.",
 		"url": "",
 		"github": "https://github.com/DrRobotnik7/team-profile-generator"
@@ -58,7 +58,7 @@
 	{
 		"key": 8,
 		"name": "README Generator",
-		"image": "./public/images/readme-generator-screenshot.png",
+		"image": "./images/readme-generator-screenshot.png",
 		"description": "A command-line application that dynamically generates a professional README.md file from a user's input",
 		"url": "",
 		"github": "https://github.com/DrRobotnik7/readme-generator"
