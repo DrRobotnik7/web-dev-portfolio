@@ -2,7 +2,6 @@ import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import CV from "../../assets/documents/JackJohnsonCV.pdf"
 import DrRobotnik from "../../assets/images/DrRobotnik.png"
-import "./styles.css"
 
 function NavigationBar() {
 	return (
