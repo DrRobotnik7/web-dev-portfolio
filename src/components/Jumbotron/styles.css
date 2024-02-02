@@ -1,6 +1,6 @@
 .jumbotron {
 	height: 250px;
-	background-image: url(./images/hero.jpg);
+	background-image: url(../../assets/images/hero.jpg);
 	background-size: cover;
 	display: flex;
 	align-items: flex-end;
