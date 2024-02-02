@@ -29,7 +29,3 @@ export default App
 // improve CSS of hyperlinks in contacts page being blue and underlined
 // work out how to use Netlify forms with React https://www.netlify.com/blog/2017/07/20/how-to-integrate-netlifys-form-handling-in-a-react-app/#step-2
 // clear form input when navigate back to the page after submitting contact details
-
-// in readme mention i used code from prior portfolio projects
-// in readme mention react bootstrap https://react-bootstrap.netlify.app
-// in readme mention form creator https://getform.io/
