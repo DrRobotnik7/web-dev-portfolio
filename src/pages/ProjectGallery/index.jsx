@@ -3,8 +3,10 @@ import ProjectCard from "../../components/ProjectCard"
 import projectData from "../../data/projects.json"
 import "./styles.css"
 
+// This component imports data from the projects JSON and passes it as props to the ProjectCard component so each card can be dynamically rendered
+
 function ProjectGallery() {
-	const [projects, setProjects] = useState(projectData)
+	const [projects, setProjects] = useState(projectData) // Assigns the array of data from the JSON file to a variable called projects
 
 	return (
 		<>

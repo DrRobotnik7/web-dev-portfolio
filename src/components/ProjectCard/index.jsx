@@ -1,6 +1,8 @@
 import React from "react"
 import "./styles.css"
 
+// This component takes props from the ProjectGallery, which in turn uses the projects JSON to pass values down to ProjectCard so they can be dynamically rendered
+
 function ProjectCard(props) {
 	return (
 		<div className="card">
