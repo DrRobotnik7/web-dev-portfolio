@@ -22,3 +22,12 @@ function App() {
 }
 
 export default App
+
+// nice to haves in future:
+// fix save button in the work day scheduler - after the first time it doesn't go hide after 2 secs
+// change urls in project gallery so just the name instead?
+// improve CSS of hyperlinks in contacts page being blue and underlined
+
+// in readme mention i used code from prior portfolio projects
+// in readme mention react bootstrap https://react-bootstrap.netlify.app
+// in readme mention form creator https://getform.io/

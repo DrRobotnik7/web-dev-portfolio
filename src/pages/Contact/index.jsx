@@ -14,10 +14,10 @@ function Contact() {
         <p>Email: <a href={contact.email}>jackj.1988@googlemail.com</a></p>
         <p>LinkedIn: <a href={contact.linkedin}>{contact.linkedin}</a></p>
         <p>GitHub: <a href={contact.github}>{contact.github}</a></p>
-        <p>CV: <a href={CV} target="_blank">Jack Johnson Web Developer CV</a></p>
+        <p>CV: <a href={CV} target="_blank">Jack Johnson Web Developer</a></p>
       </div>
     <h3>Contact Me</h3>
-    <form className="m-3" action="https://getform.io/f/13fdd2c6-8887-4bfd-87c1-025d67d56172" method="POST">
+    <form className="m-3" action="https://getform.io/f/13fdd2c6-8887-4bfd-87c1-025d67d56172" method="POST" autocomplete="off">
       <div className="form-group mb-3" controlId="formBasicName">
         <label for="name">Your Name</label>
       <input className="form-control" type="text" name="name" placeholder="Anne Onymous" />
