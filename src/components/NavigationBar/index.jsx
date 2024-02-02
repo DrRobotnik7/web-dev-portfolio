@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import CV from "../../assets/documents/JackJohnsonCV.pdf"
-import DrRobotnik from "../../assets/images/DrRobotnik.png"
+// import DrRobotnik from "../../assets/images/DrRobotnik.png"
 
 function NavigationBar() {
 	return (
@@ -9,7 +9,7 @@ function NavigationBar() {
 			<div className="container-fluid">
 				<Link className="navbar-brand" to="/">
 					<img
-						src={DrRobotnik}
+						src="./images/DrRobotnik.png"
 						alt="DrRobotnik"
 						width="50"
 						height="50"
