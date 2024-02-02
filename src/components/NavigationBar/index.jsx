@@ -30,13 +30,13 @@ function NavigationBar() {
 				</button>
 				<div className="collapse navbar-collapse text-center" id="navbarNavAltMarkup">
 					<div className="navbar-nav">
-						<NavLink to="/" className="nav-link active">
+						<NavLink to="/" className="nav-link">
 							Home
 						</NavLink>
-						<NavLink to="Project Gallery" className="nav-link">
+						<NavLink to="/projectgallery" className="nav-link">
 							Project Gallery
 						</NavLink>
-						<NavLink to="Contact" className="nav-link">
+						<NavLink to="/contact" className="nav-link">
 							Contact
 						</NavLink>
 						<Link to={CV} target="_blank" className="nav-link">
