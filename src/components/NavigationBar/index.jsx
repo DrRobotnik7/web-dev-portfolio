@@ -1,91 +1,52 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import CV from "../../assets/documents/JackJohnsonCV.pdf"
+import "./styles.css"
 
 function NavigationBar() {
-  return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
-        <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="about"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          About
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="blog"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Blog
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Contact
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Learn
-        </NavLink>
-      </li>
-    </ul>
-  );
+	return (
+		<nav className="navbar navbar-expand-lg bg-secondary">
+			<div className="container-fluid">
+				<Link className="navbar-brand" to="/">
+					<img
+						src="./src/assets/images/DrRobotnik.png"
+						alt="DrRobotnik"
+						width="60"
+						height="60"
+						className="d-inline-block rounded-circle"
+					/>
+					{"  "}Jack Johnson
+				</Link>
+				<button
+					className="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavAltMarkup"
+					aria-controls="navbarNavAltMarkup"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span className="navbar-toggler-icon"></span>
+				</button>
+				<div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div className="navbar-nav">
+						<NavLink to="/" className="nav-link active">
+							Home
+						</NavLink>
+						<NavLink to="Project Gallery" className="nav-link">
+							Project Gallery
+						</NavLink>
+						<NavLink to="Contact" className="nav-link">
+							Contact
+						</NavLink>
+						<Link to={CV} target="_blank" className="nav-link">
+							CV
+						</Link>
+					</div>
+				</div>
+			</div>
+		</nav>
+	)
 }
-
-// function NavigationBar() {
-// 	return (
-// 		<>
-// 				<NavLink to="/">Home</NavLink>
-// 				<NavLink to="/projectgallery">Project Gallery</NavLink>
-// 				<NavLink to="/contact">Contact</NavLink>
-// 				<Link href={CV} target="_blank">CV</Link>
-// 		</>
-
-		// <Navbar expand="sm" bg="dark" data-bs-theme="dark">
-		// 	<Container fluid>
-		// 		<Navbar.Brand href="/">
-		// 			<img
-		// 				alt="DrRobotnik"
-		// 				src="./src/assets/images/DrRobotnik.png"
-		// 				width="30"
-		// 				height="30"
-		// 				className="d-inline-block align-top rounded-circle"
-		// 			/>{" "}
-		// 			Jack Johnson
-		// 		</Navbar.Brand>
-		// 		<Nav className="me-auto">
-
-		// 		</Nav>
-		// 	</Container>
-		// </Navbar>
 
 export default NavigationBar
