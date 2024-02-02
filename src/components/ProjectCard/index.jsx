@@ -1,5 +1,6 @@
 import React from "react"
 import "./styles.css"
+import Yugen from "../../assets/images/Yugen.png"
 
 function ProjectCard(props) {
 	return (
