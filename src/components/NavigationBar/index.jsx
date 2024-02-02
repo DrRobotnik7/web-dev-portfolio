@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, NavLink } from "react-router-dom"
 import CV from "../../assets/documents/JackJohnsonCV.pdf"
+import DrRobotnik from "../../assets/images/DrRobotnik.png"
 import "./styles.css"
 
 function NavigationBar() {
@@ -9,10 +10,10 @@ function NavigationBar() {
 			<div className="container-fluid">
 				<Link className="navbar-brand" to="/">
 					<img
-						src="./src/assets/images/DrRobotnik.png"
+						src={DrRobotnik}
 						alt="DrRobotnik"
-						width="60"
-						height="60"
+						width="50"
+						height="50"
 						className="d-inline-block rounded-circle"
 					/>
 					{"  "}Jack Johnson
