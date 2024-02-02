@@ -1,0 +1,9 @@
+html {
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
